@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/cvstebut/hellogo/morestrings"
+)
 
 func main() {
-	fmt.Println("Hello, world. Two. Added to repo.")
+	fmt.Println(morestrings.ReverseRunes("Hello, world. Two. Added to repo."))
 }
